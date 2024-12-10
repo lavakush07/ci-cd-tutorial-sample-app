@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_lavakush07_ci_cd_tutorial_sample_app_1733808731556-pr-trigger-input-set
+  identifier: Build_lavakush07_ci_cd_tutorial_sample_app_1733808731556prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_lavakush07_ci_cd_tutorial_sample_app_1733808731556
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
