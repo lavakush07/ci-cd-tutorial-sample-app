@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_lavakush07_ci_cd_tutorial_sample_app_1733808731556-push-trigger-input-set
+  identifier: Build_lavakush07_ci_cd_tutorial_sample_app_1733808731556pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_lavakush07_ci_cd_tutorial_sample_app_1733808731556
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
